@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container{
+    height: 400px;
+    display: flex;
+    background-color: #f4f4f4;
+
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background: #254de4;
+    color: #fff;
+    margin: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*this puts everything at the center*/
+}
+
+/* .item:nth-of-type(1){
+    align-self:center;
+you use this when you only want to move an individual box to a specific location 
+}
+
+/* justify-content: space-around: - takes the remaining space and puts it around all the elements }
+
+/* justify-content: space-between: - puts space in between the elements}
+
+/* justify-content: center: - moves them to the center}
+
+/* justify-content: start - moves the content to the left
+
+/* justify-content: end - moves the content to the right
+
+/* flex-direction: column - makes the items line up into a column
+
+/* flex-direction: row - makes the items line  up in a row
+
+
